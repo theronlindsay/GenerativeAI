@@ -22,10 +22,10 @@
 						<p class="mb-0 small text-muted">Explore six personas and the practical, safe ways they might use GenAI.</p>
 					</div>
 				</div>
-				   <a href="https://transparencycheck.theronlindsay.dev" target="_blank" rel="noopener" class="ms-auto d-flex align-items-center gap-2" style="background: #d32f2f; border-radius: 2rem; color: #fff; padding: 0.35rem 1rem; font-weight: 600; box-shadow: 0 2px 8px rgba(211,47,47,0.12); border: none; text-decoration: none; transition: background 0.2s;">
-					   <span style="font-weight: 500; color: #fff; white-space: nowrap;">Go to</span>
-					   <img src="transparencycheck.png" alt="TransparencyCheck" style="height: 4rem; width: auto; background: transparent; display: block;" />
-				   </a>
+				<a href="https://transparencycheck.theronlindsay.dev" target="_blank" rel="noopener" class="ms-auto transparency-btn d-flex align-items-center gap-2">
+					<span class="transparency-btn-text">Go to</span>
+					<img src="transparencycheck.png" alt="TransparencyCheck" class="transparency-btn-img" />
+				</a>
 			</div>
 		</nav>
 
@@ -170,13 +170,16 @@
 			</div>
 
 			<div class="modal fade" id="peersModal" tabindex="-1" aria-labelledby="peersModalLabel" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
+				<div class="modal-dialog modal-xl">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="peersModalLabel">Peers — Classmates and Teammates</h5>
 							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
 						<div class="modal-body">
+							<div class="ratio ratio-16x9 mb-3">
+								<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=_w0sSp8UXEIFMILv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							</div>
 							<p>
 								Peers lean on GenAI for similar things to myself, Project planning, an idea planner, and as a coding buddy.
 							</p>
@@ -357,7 +360,7 @@
 
 			<section class="proposals py-5" aria-labelledby="proposals-title">
 				<div class="container">
-					<h3 id="proposals-title" class="mb-3">Proposed AI-Powered Web Apps</h3>
+					<h3 id="proposals-title" class="mb-3">Proposed (not good) AI-Powered Web Apps</h3>
 					<p class="text-muted">Based on the personas above, here are three web applications I'd love to build, each leveraging GenAI for practical benefits.</p>
 					<div class="row g-4">
 						<div class="col-md-4">
@@ -393,11 +396,16 @@
 					</div>
 				</div>
 			</section>
+
+			<section class="narrative" aria-label="narrative">
+				<h1>Narrative - Transparency Check</h1>
+				<p>Transparency Check is a website for summarizing Legislation that goes through the House of Representatives and Congress of the United States. </p>
+			</section>
 		</main>
+		
 		<footer class="py-4 text-center text-muted">
 			<div class="container">
 				<p class="mb-2">
-					External sites open in a new tab.
 					Feedback welcome.
 				</p>
 			</div>
