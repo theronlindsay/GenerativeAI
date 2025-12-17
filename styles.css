@@ -134,3 +134,7 @@ body {
 .modal-body {
   overflow-x: hidden;
 }
+
+.narrative {
+  margin: 3em;
+}
